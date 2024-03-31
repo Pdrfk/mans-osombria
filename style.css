@@ -1,0 +1,110 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+img {
+  position: relative;
+  height: 300px;
+  border-radius: 1%;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */ /* Define a altura para ocupar toda a altura da tela, opcional */
+}
+
+.container img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  max-height: 100%; /* Garante que a imagem não ultrapasse a altura do contêiner */
+}
+.skip {
+  text-align: right;
+  text-decoration: none;
+  color: #d41cbc;
+}
+
+a {
+  text-decoration: none;
+  font-size: 23px; /* Tamanho padrão do texto */
+  color: #d41cbc; /* Cor do texto padrão */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  display: inline-block; /* Torna o botão um bloco para aplicar largura e altura */
+}
+
+a:hover {
+  color: #2980b9; /* Nova cor do texto quando o mouse passa por cima */
+  transform: scale(
+    1.05
+  ); /* Aumenta o tamanho do botão em 5% quando o mouse passa por cima */
+}
+
+h4 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.link-container a {
+  float: left;
+  margin-right: 10px; /* Espaço entre os links */
+  font-size: 22px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */ /* Define a altura para ocupar toda a altura da tela, opcional */
+}
+
+/* Estilo básico do botão */
+/* Estilo básico do botão */
+.botao {
+  position: absolute;
+ text-align: center;
+  left: 42%;
+  top: 100%;
+padding-bottom: 3%;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 35px;
+}
+
+/* Animação de aumento de tamanho quando passa o cursor por cima */
+.botao:hover {
+  transform: scale(1.1); /* Aumenta em 10% */
+}
+
+/* Efeito de mudança de cor ao passar o cursor por cima */
+.botao:hover {
+  color: rgb(1, 124, 255); /* Nova cor de texto */ /* Nova cor de fundo */
+}
+
+
+
+#morte{
+
+  font-size: 25px;
+}
+
+#vitoria{
+  text-align: center;
+  color: rgb(48, 142, 249);
+  font-size: 20px;
+}
+
+#morreu{
+  text-align: center;
+color: red;
+font-size: 30px;
+}
